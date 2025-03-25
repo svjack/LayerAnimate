@@ -1,4 +1,4 @@
-# LayerAnimate: Layer-specific Control for Animation
+# LayerAnimate: Layer-level Control for Animation
 
 [Yuxue Yang](https://yuxueyang1204.github.io/)<sup>1,2</sup>, [Lue Fan](https://lue.fan/)<sup>2</sup>, [Zuzeng Lin](https://www.researchgate.net/scientific-contributions/Zuzeng-Lin-2192777418)<sup>3</sup>, [Feng Wang](https://happynear.wang/)<sup>4</sup>, [Zhaoxiang Zhang](https://zhaoxiangzhang.net)<sup>1,2†</sup>
 
@@ -16,7 +16,7 @@
 
 ## Updates
 
-- [25-03-22] Release the checkpoint and the inference script. **We update layer curation pipeline and support trajectory control for a flexible composition of various layer-level controls.** The paper will be updated soon.
+- [25-03-22] Release the checkpoint and the inference script. **We update layer curation pipeline and support trajectory control for a flexible composition of various layer-level controls.**
 - [25-01-15] Release the project page and the arXiv preprint.
 
 ## Inference
@@ -64,7 +64,7 @@ Note that the layer-level controls are prepared in `__assets__/demos`. A more us
 - [ ] Upload a gradio script and UI in huggingface spaces.
 - [ ] Release layer curation pipeline.
 - [ ] Training script for LayerAnimate.
-- [ ] DiT-based base model for LayerAnimate.
+- [ ] DiT-based model LayerAnimate.
 
 ## Acknowledgements
 
@@ -76,7 +76,7 @@ Please consider citing our work as follows if it is helpful.
 ```bib
 @article{yang2025layeranimate,
   author    = {Yang, Yuxue and Fan, Lue and Lin, Zuzeng and Wang, Feng and Zhang, Zhaoxiang},
-  title     = {LayerAnimate: Layer-specific Control for Animation},
+  title     = {LayerAnimate: Layer-level Control for Animation},
   journal   = {arXiv preprint arXiv:2501.08295},
   year      = {2025},
 }

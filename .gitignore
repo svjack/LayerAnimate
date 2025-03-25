@@ -4,9 +4,6 @@ debugs/
 outputs/
 samples/
 __pycache__/
-ossutil_output/
-.ossutil_checkpoint/
-__assets__/demos/anime*
 
 *.ipynb
 *.safetensors
@@ -14,5 +11,4 @@ __assets__/demos/anime*
 *.pth
 /data
 /vis
-checkpoints/
-models/
+/checkpoints
