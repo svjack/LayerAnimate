@@ -1,3 +1,21 @@
+```bash
+sudo apt-get update && sudo apt-get install git-lfs ffmpeg cbm
+
+# Clone the repository (using HTTPS instead of SSH)
+git clone https://github.com/IamCreateAI/LayerAnimate.git
+cd LayerAnimate
+
+# Create and activate conda environment
+conda create -n layeranimate python=3.10 -y
+conda activate layeranimate
+# Install ipykernel and register the environment with a display name
+pip install ipykernel
+python -m ipykernel install --user --name layeranimate --display-name "LayerAnimate"
+
+# Install requirements
+pip install -r requirements.txt
+```
+
 # LayerAnimate: Layer-level Control for Animation
 
 [Yuxue Yang](https://yuxueyang1204.github.io/)<sup>1,2</sup>, [Lue Fan](https://lue.fan/)<sup>2</sup>, [Zuzeng Lin](https://www.researchgate.net/scientific-contributions/Zuzeng-Lin-2192777418)<sup>3</sup>, [Feng Wang](https://happynear.wang/)<sup>4</sup>, [Zhaoxiang Zhang](https://zhaoxiangzhang.net)<sup>1,2†</sup>
