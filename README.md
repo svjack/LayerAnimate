@@ -14,6 +14,11 @@ python -m ipykernel install --user --name layeranimate --display-name "LayerAnim
 
 # Install requirements
 pip install -r requirements.txt
+
+mkdir -p checkpoints
+cd checkpoints
+git clone https://huggingface.co/Yuppie1204/LayerAnimate-Mix
+cd ..
 ```
 
 # LayerAnimate: Layer-level Control for Animation
